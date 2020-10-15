@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+:global {
+  p {
+    margin: 0;
+  }
+}
+img {
+  border: none;
+  display: block;
+}
+ul {
+  li {
+    list-style: none;
+  }
+}
+.base_container {
+  width: 1000px;
+  margin: 30px auto 15px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #c9c9c9;
+}
+/* 滚动条的内层滑轨背景颜色 */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+/* 滚动条的外层滑轨背景颜色 */
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(#ff82a9, #ffc0cb);
+}
+/* 滚动条的内层滑块颜色 */
+::-webkit-scrollbar-button {
+  background-color: #fff;
+  display: none;
+}
+/* 滑轨两头的监听按钮颜色 */
