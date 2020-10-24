@@ -64,13 +64,6 @@ export default (): JSX.Element => {
       address: 'New York No. 1 Lake Park',
       tags: ['nice', 'developer'],
     },
-    {
-      id: '2',
-      name: 'Jim Green',
-      age: 42,
-      address: 'London No. 1 Lake Park',
-      tags: ['loser'],
-    }
   ];
   return (
     <>
