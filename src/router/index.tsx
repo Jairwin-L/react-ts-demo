@@ -10,17 +10,17 @@ const Demo = loadable(() => import('../pages/demo'))
 const Params = loadable(() => import('../pages/params'))
 
 const Router = () => {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path='/' exact component={Table} />
-        <Route path='/hook' exact component={Hook} />
-        <Route path='/demo' exact component={Demo} />
-        <Route path='/params/:id' exact component={Params} />
-        <Redirect to='/' />
-      </Switch>
-    </BrowserRouter>
-  )
+	return (
+		<BrowserRouter>
+			<Switch>
+				<Route path='/' exact component={Table} />
+				<Route path='/demo' exact component={Demo} />
+				{/* <Route path='/hook' exact component={Hook} />
+        <Route path='/params/:id' exact component={Params} /> */}
+				<Redirect to='/' />
+			</Switch>
+		</BrowserRouter>
+	)
 }
 
 export default Router

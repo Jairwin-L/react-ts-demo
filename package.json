@@ -19,6 +19,7 @@
     "cross-env": "^7.0.2",
     "dateformat-util": "^1.0.5",
     "gif.js": "^0.2.0",
+    "moment": "^2.29.1",
     "nprogress": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
